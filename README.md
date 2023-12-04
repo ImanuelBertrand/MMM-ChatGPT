@@ -82,7 +82,7 @@ This example relies on different modules to be present on the screen (1x time, 3
                 content: "This is the current time: '{{document.querySelectorAll('.clock')[0].innerText}}'." +
                     "This is the current weather including the time of sunset/sunrise: '{{document.querySelectorAll('.weather')[0].innerText}}'. " +
                     "This is the weather for later today: '{{document.querySelectorAll('.weather')[1].innerText}}'. " +
-                    "This is the weather for the coming days: '{{document.querySelectorAll('.weather')[2].innerText}}'. " +
+                    "This is the weather for the coming days: '{{document.querySelectorAll('.weather')[2].innerText}}'. "
             }],
             prompts: [
                 [{
